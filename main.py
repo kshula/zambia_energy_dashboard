@@ -12,9 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-    # Load images
-zesco_logo = Image.open('images\\33.jpg')  # Update with the path to your logo image
-energy_image = Image.open('images\\one.jpg')  # Update with the path to an energy-related image
+    
  
 # Load data
 file_path = 'data\\lake.csv'
@@ -42,9 +40,7 @@ if page == "Home":
     This dashboard provides a comprehensive overview of Zambia's energy sector, focusing on electricity generation, consumption, and the state of Lake Kariba water levels. The aim is to offer insights and data-driven analysis to help understand and address the challenges of power outages and load shedding.
     """)
 
-    # Display ZESCO logo
-    st.image(zesco_logo, use_column_width=False)
-
+   
     # Navigation links
     st.markdown("""
     ### Explore the Dashboard
