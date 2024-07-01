@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from model_utils import train_ensemble_model, predict_future, preprocess_data
-from PIL import Image
+
 
 # Set page configuration
 st.set_page_config(
@@ -12,8 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-    
- 
+
 # Load data
 file_path = 'data\\lake.csv'
 
