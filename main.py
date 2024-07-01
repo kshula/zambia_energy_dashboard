@@ -14,7 +14,7 @@ st.set_page_config(
 
 
 # Load data
-file_path = 'data\lake.csv'
+file_path = 'data/lake.csv'
 
 # Preprocess and get the processed lake data
 lake = preprocess_data(file_path)
