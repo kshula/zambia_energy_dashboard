@@ -22,7 +22,7 @@ lake = preprocess_data(file_path)
 # Train the ensemble model once
 scaler, models, meta_model = train_ensemble_model(file_path)
 
-table_1 = pd.read_csv('data\\table_1.csv')
+table_1 = pd.read_csv('data/table_1.csv')
 
 #  Sidebar for navigation
 st.sidebar.title("Zambia Energy Dashboard")
